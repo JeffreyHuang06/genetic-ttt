@@ -46,7 +46,7 @@ class NN:
         indout = indout[::-1]
 
         boardin = inputs.inputs
-        # print(indout)
+        print(indout)
 
         # '000' = (i moved, he moved, empty)
         for (move, prob) in indout:

@@ -20,7 +20,7 @@ games = []
 def comp(x):
     return x.score
 
-for _ in range(30):
+for _ in range(200):
     print(_)
     random.shuffle(players)
 

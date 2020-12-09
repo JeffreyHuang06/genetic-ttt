@@ -5,7 +5,7 @@ from classes.Player import Player
 import numpy as np
 import funcs
 
-with open("bestoutof30","r+") as fin:
+with open("bestoutof200","r+") as fin:
     raw = [i.rstrip('\n') for i in fin.readlines()]
 
 w_1 = raw[:81]
